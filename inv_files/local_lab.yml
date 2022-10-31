@@ -2,16 +2,24 @@
 aap-control ansible_host=192.168.122.195
 aap-ahub ansible_host=192.168.122.50
 aap-db ansible_host=192.168.122.54
+rhel7-01 ansible_host=192.168.122.151
 rhel8-01 ansible_host=192.168.122.76
 rhel8-02 ansible_host=192.168.122.23
 rhel8-03 ansible_host=192.168.122.190
+rhel9-01 ansible_host=192.168.122.233
 
 [aap]
 aap-control ansible_host=192.168.122.195
 aap-ahub ansible_host=192.168.122.50
 aap-db ansible_host=192.168.122.54
 
+[rhel7]
+rhel7-01 ansible_host=192.168.122.151
+
 [rhel8]
 rhel8-01 ansible_host=192.168.122.76
 rhel8-02 ansible_host=192.168.122.23
 rhel8-03 ansible_host=192.168.122.190
+
+[rhel9]
+rhel9-01 ansible_host=192.168.122.233
