@@ -1,0 +1,36 @@
+[lab]
+capsule.vm.bdm.scot
+git.vm.bdm.scot ansible_port=2222
+ansible.vm.bdm.scot
+ahub.vm.bdm.scot
+aex01.vm.bdm.scot
+rhel8.vm.bdm.scot
+rhel8-test.vm.bdm.scot
+sat6.vm.bdm.scot
+vm.bdm.scot 
+edge1.vm.bdm.scot
+code.vm.bdm.scot
+pb.vm.bdm.scot
+rhel8.vm.bdm.scot
+rhel8-test.vm.bdm.scot
+reporting.vm.bdm.scot
+mc.vm.bdm.scot
+
+[physical]
+vm.bdm.scot
+aex.onprem.bdm.scot ansible_host=100.87.102.35
+lab01.onprem.bdm.scot ansible_host=192.168.0.98
+
+[ansible]
+ansible.vm.bdm.scot
+ahub.vm.bdm.scot
+aex01.vm.bdm.scot
+aex.onprem.bdm.scot ansible_host=100.87.102.35
+
+[satellite]
+sat6.vm.bdm.scot
+capsule.vm.bdm.scot
+
+[onprem]
+aex.onprem.bdm.scot ansible_host=100.87.102.35
+lab01.onprem.bdm.scot ansible_host=100.102.87.109
