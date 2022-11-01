@@ -13,6 +13,11 @@ aap-control ansible_host=192.168.122.195
 aap-ahub ansible_host=192.168.122.50
 aap-db ansible_host=192.168.122.54
 
+[tower]
+aap-tower ansible_host=192.168.122.118
+aap-tower-ahub ansible_host=192.168.122.129
+aap-tower-db ansible_host=192.168.122.51
+
 [rhel7]
 rhel7-01 ansible_host=192.168.122.151
 
