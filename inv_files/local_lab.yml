@@ -1,5 +1,5 @@
 [lab]
-aap-control ansible_host=192.168.122.195
+aap-control ansible_host=192.168.122.101
 aap-ahub ansible_host=192.168.122.50
 aap-db ansible_host=192.168.122.54
 rhel7-01 ansible_host=192.168.122.151
@@ -13,7 +13,7 @@ aap-tower-db ansible_host=192.168.122.51
 rhel8-XX ansible_host=192.168.122.249
 
 [aap]
-aap-control ansible_host=192.168.122.195
+aap-control ansible_host=192.168.122.101
 aap-ahub ansible_host=192.168.122.50
 aap-db ansible_host=192.168.122.54
 
