@@ -10,7 +10,7 @@ rhel9-01 ansible_host=192.168.122.233
 aap-tower ansible_host=192.168.122.118
 aap-tower-ahub ansible_host=192.168.122.129
 aap-tower-db ansible_host=192.168.122.51
-rhel8-XX ansible_host=192.168.122.249
+rhel8-XX ansible_host=192.168.122.184
 
 [aap]
 aap-control ansible_host=192.168.122.101
@@ -29,7 +29,7 @@ rhel7-01 ansible_host=192.168.122.151
 rhel8-01 ansible_host=192.168.122.252
 rhel8-02 ansible_host=192.168.122.23
 rhel8-03 ansible_host=192.168.122.190
-rhel8-XX ansible_host=192.168.122.249
+rhel8-XX ansible_host=192.168.122.184
 
 [rhel9]
 rhel9-01 ansible_host=192.168.122.233
